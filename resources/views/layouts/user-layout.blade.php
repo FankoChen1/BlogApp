@@ -101,31 +101,31 @@
 
       <li class="nav-item">
         <a class="nav-link " href="/user/home" wire:navigate>
-          <i class="bi bi-"></i>
+          <i class="bi bi-rss"></i>
           <span>Posts Feed</span>
         </a>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="/create/post" wire:navigate>
-          <i class="bi bi-archive-fill"></i>
+          <i class="bi bi-file-plus"></i>
           <span>Create Posts</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="/my/posts" wire:navigate>
-          <i class="bi bi-archive-fill"></i>
-          <span>Post Manager</span>
+          <i class="bi bi-stickies"></i>
+          <span>My Post Manager</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="/profile" wire:navigate>
-          <i class="bi bi-person"></i>
-          <span>My Profile</span>
+          <i class="bi bi-person-fill-gear"></i>
+          <span>Profile Settings</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link collapsed" href="/logout" wire:navigate>
-          <i class="bi bi-person"></i>
+          <i class="bi bi-box-arrow-right"></i>
           <span>End Session</span>
         </a>
       </li><!-- End Profile Page Nav -->
