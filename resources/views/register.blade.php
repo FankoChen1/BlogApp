@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pages / Register - NiceAdmin Bootstrap Template</title>
+  <title>Register to Lara-Blogger</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,14 +27,6 @@
   <script src="{{ asset('row_merger/dist/row-merge-bundle.min.js') }}"></script>
   <!-- Template Main CSS File -->
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -48,9 +40,9 @@
             <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
               <div class="d-flex justify-content-center py-4">
-                <a href="index.html" class="logo d-flex align-items-center w-auto">
+                <a href="" class="logo d-flex align-items-center w-auto">
                   <img src="assets/img/logo.png" alt="">
-                  <span class="d-none d-lg-block">NiceAdmin</span>
+                  <span class="d-none d-lg-block">Lara-Blogger</span>
                 </a>
               </div><!-- End Logo -->
 
@@ -64,10 +56,10 @@
                   </div>
                   {{-- display flash message here --}}
                   @if (Session::has('success'))
-                      <div class="alert alert-success">{{Session::get('success')}}</div>
+                  <div class="alert alert-success">{{Session::get('success')}}</div>
                   @endif
                   @if (Session::has('error'))
-                      <div class="alert alert-danger">{{Session::get('error')}}</div>
+                  <div class="alert alert-danger">{{Session::get('error')}}</div>
                   @endif
                   <form class="row g-3" action="{{ route('registerUser')}}" method="POST">
                     @csrf
@@ -89,12 +81,12 @@
                       <span class="text-danger">@error('password'){{$message}}@enderror</span>
                     </div>
                     <div class="col-12">
-                        <label for="yourPassword" class="form-label">Confirm Password</label>
-                        <input type="password" name="password_confirmation" class="form-control">
-                        <span class="text-danger">@error('password_confirmation'){{$message}}@enderror</span>
-                      </div>
+                      <label for="yourPassword" class="form-label">Confirm Password</label>
+                      <input type="password" name="password_confirmation" class="form-control">
+                      <span class="text-danger">@error('password_confirmation'){{$message}}@enderror</span>
+                    </div>
 
-                
+
                     <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit">Create Account</button>
                     </div>
@@ -105,15 +97,6 @@
 
                 </div>
               </div>
-
-              <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
-
             </div>
           </div>
         </div>
