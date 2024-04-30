@@ -8,9 +8,11 @@
       </ol>
     </nav>
   </div><!-- End Page Title -->
-
   @if (session()->has('message'))
-  <span class="alert alert-success p-2 my-2">{{ session('message') }}</span>
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    {{ session('message') }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
   @endif
   <div class="card-body">
     <div class="row">
