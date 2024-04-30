@@ -8,9 +8,10 @@
             </ol>
         </nav>
     </div><!-- End Page Title -->
-    <br><br>
+    <br>
     <div class="card">
         <div class="card-body">
+            <br>
             {{-- here we call save function --}}
             <form class="my-3" wire:submit="save">
                 <div class="col-sm-10">
