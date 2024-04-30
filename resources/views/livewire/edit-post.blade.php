@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-sm-10">
                     <div class="form-floating mb-3">
-                        <textarea type="text" class="form-control" wire:model="content" rows="5" id="floatingInput">{{$post->content}}</textarea>
+                        <textarea type="text" class="form-control" wire:model="content" style="height: 100px;" id="floatingInput">{{$post->content}}</textarea>
                         <label for="floatingInput">Post details</label>
                     </div>
                     @error('content')
