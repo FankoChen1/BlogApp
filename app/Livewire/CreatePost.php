@@ -24,7 +24,7 @@ class CreatePost extends Component
             'photo' => 'required',
         ]);
         $photo_name = md5($this->photo . microtime()) . '.' . $this->photo->extension();
-        $this->photo->storeAs('public/images', $photo_name); //then we store image in this path
+        $this->photo->storeAs('storage/public/images/', $photo_name); //then we store image in this path
 
         $createPost = new Post;
         $createPost->post_title = $this->post_title;

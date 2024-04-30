@@ -28,7 +28,7 @@
         <div class="col-sm-10">
             <label for="">post image</label>
             <div class="form-floating mb-3">
-                <img height="80px" width="80px" src="{{ asset('storage/images/' .$post->photo) }}" alt="post image">
+                <img height="80px" width="80px" src="{{ asset('storage/public/images/' .$post->photo) }}" alt="post image">
                 <input type="file" class="form-control" placeholder="post details" wire:model="photo" id="">
             </div>
             @error('photo')
