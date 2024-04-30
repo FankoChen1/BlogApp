@@ -1,7 +1,7 @@
 <div class="card">
     {{-- here create a form to add new post --}}
     <div class="card-header">
-        add new post
+        Publish a new post
     </div>
     <div class="card-body">
         {{-- here we call save function --}}
@@ -9,7 +9,7 @@
             <div class="col-sm-10">
                 <div class="form-floating mb-3">
                     <input type="text" class="form-control" wire:model="post_title" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Post Title</label>
+                    <label for="floatingInput">Title</label>
                 </div>
                 {{-- show validation error here --}}
                 @error('post_title')
@@ -19,7 +19,7 @@
             <div class="col-sm-10">
                 <div class="form-floating mb-3">
                     <textarea class="form-control" placeholder="post details" wire:model="content" id="floatingTextarea" style="height: 100px;"></textarea>
-                    <label for="floatingInput">Your post goes here..</label>
+                    <label for="floatingInput">Details</label>
                 </div>
                 @error('content')
                 <span class="text-danger">{{$message}}</span>
@@ -28,7 +28,7 @@
             <div class="col-sm-10">
                 <div class="form-floating mb-3">
                     <input type="file" class="form-control" placeholder="post details" wire:model="photo" id="">
-                    <label for="floatingInput">Your post image</label>
+                    <label for="floatingInput">Image</label>
                 </div>
                 @error('photo')
                 <span class="text-danger">{{$message}}</span>

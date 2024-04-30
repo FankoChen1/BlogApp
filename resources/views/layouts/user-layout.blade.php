@@ -41,7 +41,7 @@
   <header id="header" class="header fixed-top d-flex align-items-center">
 
     <div class="d-flex align-items-center justify-content-between">
-      <a href="/my/posts" class="logo d-flex align-items-center">
+      <a href="/user/home" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span class="d-none d-lg-block">Lara-Blogger</span>
       </a>
@@ -73,12 +73,8 @@
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
             <li class="dropdown-header">
               <h6>{{$logged_user->name}}</h6>
-              <span>User</span>
+              <span>Author</span>
             </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
             <li>
               <a class="dropdown-item d-flex align-items-center" href="/logout">
                 <i class="bi bi-box-arrow-right"></i>
@@ -129,9 +125,6 @@
           <span>End Session</span>
         </a>
       </li><!-- End Profile Page Nav -->
-
-
-
     </ul>
 
   </aside><!-- End Sidebar-->
