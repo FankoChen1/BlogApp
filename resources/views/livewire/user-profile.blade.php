@@ -65,7 +65,7 @@
             <br>
             <div class="row">
               <div class="col-lg-3 col-md-4 label">Phone</div>
-              <div class="col-lg-9 col-md-8">(255) {{$user_data->phone ?? ''}}</div>
+              <div class="col-lg-9 col-md-8">{{$user_data->phone ?? ''}}</div>
             </div>
             <br>
             <div class="row">

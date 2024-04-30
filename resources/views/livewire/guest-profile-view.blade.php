@@ -34,37 +34,39 @@
                <div class="col-lg-3 col-md-4 label ">Full Name</div>
                <div class="col-lg-9 col-md-8">{{$user_data->name ?? ''}}</div>
              </div>
-
+             <br>
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Company</div>
                <div class="col-lg-9 col-md-8">{{$user_data->company ?? ''}}</div>
              </div>
+             <br>
 
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Job</div>
                <div class="col-lg-9 col-md-8">{{$user_data->job ?? ''}}</div>
              </div>
+             <br>
 
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Country</div>
                <div class="col-lg-9 col-md-8">{{$user_data->country ?? ''}}</div>
              </div>
-
+             <br>
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Address</div>
                <div class="col-lg-9 col-md-8">{{$user_data->address ?? ''}}</div>
              </div>
-
+             <br>
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Phone</div>
-               <div class="col-lg-9 col-md-8">(255) {{$user_data->phone ?? ''}}</div>
+               <div class="col-lg-9 col-md-8">{{$user_data->phone ?? ''}}</div>
              </div>
-
+             <br>
              <div class="row">
                <div class="col-lg-3 col-md-4 label">Email</div>
                <div class="col-lg-9 col-md-8">{{$user_data->email ?? ''}}</div>
              </div>
-
+             <br>
            </div>
          </div><!-- End Bordered Tabs -->
 
