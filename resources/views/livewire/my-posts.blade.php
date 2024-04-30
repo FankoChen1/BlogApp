@@ -22,10 +22,10 @@
 
             <div class="d-flex align-items-center">
               <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                <i class="bi bi-cart"></i>
+                <i class="bi bi-stickies"></i>
               </div>
               <div class="ps-3">
-                <h6>145</h6>
+                <h6>{{$post_count}}</h6>
               </div>
             </div>
           </div>
@@ -40,10 +40,10 @@
             <h5 class="card-title">My Followers</h5>
             <div class="d-flex align-items-center">
               <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                <i class="bi bi-cart"></i>
+                <i class="bi bi-people-fill"></i>
               </div>
               <div class="ps-3">
-                <h6>145</h6>
+                <h6>{{$follower_count}}</h6>
               </div>
             </div>
           </div>
@@ -59,10 +59,10 @@
             <h5 class="card-title">My Comments</h5>
             <div class="d-flex align-items-center">
               <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                <i class="bi bi-cart"></i>
+                <i class="bi bi-chat-left-quote"></i>
               </div>
               <div class="ps-3">
-                <h6>145</h6>
+                <h6>{{$comment_count}}</h6>
               </div>
             </div>
           </div>
