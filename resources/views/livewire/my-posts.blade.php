@@ -14,64 +14,61 @@
   @endif
   <div class="card-body">
     <div class="row">
-      <div class="col">
-        <!-- My Posts -->
-        <div class="col-xxl-4 col-md-6">
-          <div class="card info-card sales-card">
-            <div class="card-body">
-              <h5 class="card-title">My Posts</h5>
+      <!-- My Posts -->
+      <div class="col-xxl-4 col-md-6">
+        <div class="card info-card sales-card">
+          <div class="card-body">
+            <h5 class="card-title">My Posts</h5>
 
-              <div class="d-flex align-items-center">
-                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-cart"></i>
-                </div>
-                <div class="ps-3">
-                  <h6>145</h6>
-                </div>
+            <div class="d-flex align-items-center">
+              <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cart"></i>
+              </div>
+              <div class="ps-3">
+                <h6>145</h6>
               </div>
             </div>
           </div>
         </div>
-        <!-- End Posts -->
-
-        <!-- My Followers -->
-        <div class="col-xxl-4 col-md-6">
-          <div class="card info-card sales-card">
-            <div class="card-body">
-              <h5 class="card-title">My Followers</h5>
-              <div class="d-flex align-items-center">
-                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-cart"></i>
-                </div>
-                <div class="ps-3">
-                  <h6>145</h6>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- My Followers -->
-
-        <!-- Comments -->
-        <div class="col-xxl-4 col-md-6">
-          <div class="card info-card sales-card">
-            <div class="card-body">
-              <h5 class="card-title">My Comments</h5>
-              <div class="d-flex align-items-center">
-                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-cart"></i>
-                </div>
-                <div class="ps-3">
-                  <h6>145</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Comments -->
-
       </div>
+      <!-- End Posts -->
+
+      <!-- My Followers -->
+      <div class="col-xxl-4 col-md-6">
+        <div class="card info-card sales-card">
+          <div class="card-body">
+            <h5 class="card-title">My Followers</h5>
+            <div class="d-flex align-items-center">
+              <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cart"></i>
+              </div>
+              <div class="ps-3">
+                <h6>145</h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- My Followers -->
+
+      <!-- Comments -->
+      <div class="col-xxl-4 col-md-6">
+        <div class="card info-card sales-card">
+          <div class="card-body">
+            <h5 class="card-title">My Comments</h5>
+            <div class="d-flex align-items-center">
+              <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                <i class="bi bi-cart"></i>
+              </div>
+              <div class="ps-3">
+                <h6>145</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Comments -->
     </div>
     <hr>
     <!-- Table with stripped rows -->
