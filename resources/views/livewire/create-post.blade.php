@@ -34,8 +34,10 @@
                 <span class="text-danger">{{$message}}</span>
                 @enderror
             </div>
-            <button type="submit" class="btn btn-primary">Save</button>
-            <a href="/user/home" wire:navigate class="btn btn-secondary">cancel</a>
+            <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">Save</button> &nbsp; &nbsp;
+                <a href="/user/home" wire:navigate class="btn btn-secondary">cancel</a>
+            </div>
         </form>
     </div>
 </div>
