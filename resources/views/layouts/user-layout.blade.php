@@ -49,10 +49,10 @@
     </div><!-- End Logo -->
 
     <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
+      <!-- <form class="search-form d-flex align-items-center" method="POST" action="#">
         <input type="text" name="query" placeholder="Search" title="Enter search keyword">
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-      </form>
+      </form> -->
     </div><!-- End Search Bar -->
 
     <nav class="header-nav ms-auto">
@@ -102,7 +102,7 @@
       <li class="nav-item">
         <a class="nav-link " href="/user/home" wire:navigate>
           <i class="bi bi-"></i>
-          <span>Dashboard</span>
+          <span>Posts Feed</span>
         </a>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
@@ -114,7 +114,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="/my/posts" wire:navigate>
           <i class="bi bi-archive-fill"></i>
-          <span>Manage Posts</span>
+          <span>Post Manager</span>
         </a>
       </li>
       <li class="nav-item">

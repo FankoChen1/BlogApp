@@ -4,3 +4,4 @@
     <livewire:view-post-component />
 </div>
 @endsection
+
