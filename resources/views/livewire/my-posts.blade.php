@@ -81,7 +81,6 @@
               <th scope="col">Title</th>
               <th scope="col">Content</th>
               <th scope="col">Posted At</th>
-              <th scope="col">Last Updated</th>
               <th scope="col" colspan="2">Actions</th>
             </tr>
           </thead>
@@ -91,8 +90,7 @@
               <th scope="row">{{$loop->iteration}}</th>
               <td>{{$item->post_title}}</td>
               <td>{{str($item->content)->words(10)}}</td>
-              <td>{{$item->created_at}}</td>
-              <td>{{$item->updated_at}}</td>
+              <td>{{date('d M Y h:i',strtotime($item->created_at))}}</td>
               <td>
                 <a href="/edit/post/{{$item->id}}" wire:navigate class="btn btn-primary btn-sm">
                   <i class="bi bi-pencil-square"></i>
