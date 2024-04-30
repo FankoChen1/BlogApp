@@ -1,1 +1,1 @@
-<img src="{{ asset('storage/images/' .$user_image) }}" height="30px" width="30px" alt="" class="rounded-circle">
+<img src="https://icons.veryicon.com/png/o/miscellaneous/two-color-icon-library/user-286.png" height="30px" width="30px" alt="" class="rounded-circle">
