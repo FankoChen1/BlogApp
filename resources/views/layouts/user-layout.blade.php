@@ -96,7 +96,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="/user/home" wire:navigate>
+        <a class="nav-link collapsed" href="/user/home" wire:navigate>
           <i class="bi bi-rss"></i>
           <span>Posts Feed</span>
         </a>
