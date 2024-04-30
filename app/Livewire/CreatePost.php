@@ -16,15 +16,16 @@ class CreatePost extends Component
     public $photo;
 
     // function to save post
-    public function save(){
+    public function save()
+    {
         $this->validate([
             'post_title' => 'required',
             'content' => 'required',
             'photo' => 'required',
         ]);
-        $photo_name = md5($this->photo . microtime()).'.'.$this->photo->extension();
-        $this->photo->storeAs('public/images', $photo_name); //then we store image in this path
-        
+        $photo_name = md5($this->photo . microtime()) . '.' . $this->photo->extension();
+        $this->photo->storeAs('public/images/', $photo_name); //then we store image in this path
+
         $createPost = new Post;
         $createPost->post_title = $this->post_title;
         $createPost->content = $this->content;
@@ -41,7 +42,7 @@ class CreatePost extends Component
         $this->post_title = '';
         $this->content = '';
         session()->flash('message', 'The post was successfully created!');
-        $this->redirect('/my/posts',navigate: true); //add this to ensure livewire SPA navigation
+        $this->redirect('/my/posts', navigate: true); //add this to ensure livewire SPA navigation
         // after save return the fields to empty and redirect user to post lists..
     }
     public function render()
