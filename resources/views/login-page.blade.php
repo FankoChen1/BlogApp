@@ -32,9 +32,7 @@
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 </head>
 
-<body background="background-image: url(assets/img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;">
+<body>
   <main>
     <div class="container">
 
